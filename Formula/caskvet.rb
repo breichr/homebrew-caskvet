@@ -11,8 +11,6 @@ class Caskvet < Formula
     sha256 "bde2cd29b48d6b6fd094d51a21cd2e20736653671d9bb20029acce3be20c5fe3"
   end
 
-  version "0.1.0"
-
   def install
     bin.install "caskvet"
   end
