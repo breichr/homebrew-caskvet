@@ -3,12 +3,12 @@ class Caskvet < Formula
   homepage "https://github.com/breichr/caskvet"
 
   if Hardware::CPU.intel?
-    url "https://github.com/breichr/caskvet/releases/download/v0.2.0/caskvet_v0.2.0_darwin_amd64.zip"
-    sha256 "4c570a80ddef9036d798d592dd7eff7fe0855fed9d42697aa0f27eb87e575879"
+    url "https://github.com/breichr/caskvet/releases/download/v0.2.1/caskvet_v0.2.1_darwin_amd64.zip"
+    sha256 "6a1eb0ce37a686dcf4f2faf3caf1b9077740936fe4155689243663ba31761823"
   end
   if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/breichr/caskvet/releases/download/v0.2.0/caskvet_v0.2.0_darwin_arm64.zip"
-    sha256 "8b0d185bcb372431d6c8ba995897d92b54ea5915248882a657abbf7af710e4da"
+    url "https://github.com/breichr/caskvet/releases/download/v0.2.1/caskvet_v0.2.1_darwin_arm64.zip"
+    sha256 "72794413d17a68b04fce1ca8ac11841e03a17b1353e7097d8062871b5a57114e"
   end
 
   def install
